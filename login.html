@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="app">
+        <div class="grid-app">
+            <div class="grid-row">
+                <div class="header">
+                    <div class="header-nav">
+                        <div class="heading">
+                            <img src="//res.yame.vn/Content/images/yame-f-logo-white.png?v=20231127_2" alt="Yame.vn" style="width: 144px; margin-left:0%;">
+                        </div>
+    
+                        <div class="heading">
+                            <div class="heading-nav">
+                                <div href="" class="heading-nav__item heading-item__search">
+                                    <span class="heading-title">Bộ sưu tập</span>
+                                    <i class="heading-nav__icon fa-solid fa-chevron-down"></i>
+                                    <ul class="heading-tcc">
+                                        <li><a href="#">Beginner (Thể thao)</a></li>
+                                        <li><a href="#">No Style (Gu nào cũng có)</a></li>
+                                        <li><a href="#">Seventy Seven(Trung tính, giá tốt)</a></li>
+                                        <li><a href="#">Premium (vải cao cấp)</a></li>
+                                        <li><a href="#">Cool Touch (Vải làm mát)</a></li>
+                                        <li><a href="#">Wrinkle Free (Vải ít nhăn)</a></li>
+                                        <li><a href="#">The Seafraer (Thủy Thủ)</a></li>
+                                        <li><a href="#">One Piece x YaMe</a></li>
+                                        <li><a href="#">The Day's Eye (Fan của hoa cúc)</a></li>
+                                        <li><a href="#">JHS (Fan cảu Nhật Bản)</a></li>
+                                        <li><a href="#">Di sản( Fan cứng của YaMe)</a></li>
+                                        <li><a href="#">SPEED (Fan của xe F1)</a></li>
+                                        <li><a href="#">Miền Gió Cát (Fan cảu màu Be)</a></li>
+                                    </ul> 
+                                </div>
+    
+                                <div href="" class="heading-nav__item heading-item__search">
+                                    <span class="heading-title">Sale cấp tốc</span>
+                                    <i class="heading-nav__icon fa-solid fa-chevron-down"></i>
+                                    <ul class="heading-tcc">
+                                        <li><a href="#">Áo thun 50%</a></li>
+                                        <li><a href="#">Áo polo sale 50%</a></li>
+                                        <li><a href="#">Áo sơ mi sale</a></li>
+                                        <li><a href="#">Áo khoác sale</a></li>
+                                        <li><a href="#">Quần dài sale</a></li>
+                                        <li><a href="#">Quần short sale</a></li>
+                                    </ul> 
+                                </div>
+                                <div href="" class="heading-nav__item">Giá luôn tốt</div>
+                                <div href="" class="heading-nav__item">Mới</div>
+                                
+                                <div href="" class="heading-nav__item heading-item__search">
+                                <div href="" class="heading-nav__item aaa heading-title">
+                                    <i class="heading-nav__icon fa-solid fa-bars"></i>
+                                    <i class="heading-nav__icon fa-solid fa-chevron-down"></i>
+                                    <ul class="heading-tcc">
+                                        <li><a href="#">Áo thun</a></li>
+                                        <li><a href="#">Áo polo</a></li>
+                                        <li><a href="#">Áo sơ mi</a></li>
+                                        <li><a href="#">Áo khoác</a></li>
+                                        <li><a href="#">Quần dài</a></li>
+                                        <li><a href="#">Quần short</a></li>
+                                        <li><a href="#">Quần jean lưng thun</a></li>
+                                        <li><a href="#">Quần kaki</a></li>
+                                        <li><a href="#">Quần dài thun</a></li>
+                                    </ul> 
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="heading">
+                            <div class="heading-icon">
+                                <i><a href="search" class="heading-item-icon fa-solid fa-magnifying-glass"></a></i>
+                                <i><a href="login.html" class="heading-item-icon fa-solid fa-user"></a></i>
+                                <i><a href="bag.html" class="heading-item-icon fa-solid fa-shopping-bag bag">
+                                    <span class="number">3</span></a></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- login -->
+        <div class="total">
+        <div class="from-login">
+            <div class="row">
+                <div class="row--1">
+                    <div class="breadcrumb">
+                        <a href="/">
+                            <i class="icon fa fa-home"></i>
+                        </a>
+                        <span class="text-black">/</span>
+                        <span class="text-black">Đăng nhập - Nhận OPT bởi Zalo</strong>
+                    </div>
+                </div>
+                <div class="row from">
+                <div class="text-center">
+                    <span class="center">Đăng ký/Đăng nhập VIP
+                        <br>bằng OPT tin nhắn Zalo
+                    </span>
+                </div>
+                <div class="text-center-from">
+                    <form method="post" action="checkotp" enctype="from-data" id="opt">
+                       <div class="input">
+                        <div class="input-number">
+                            <div class="input-number-1">+84</div>
+                        </div>
+                        <input class="input-text sdt " type="text" placeholder="Nhập số điện thoại" id="userphone">
+                        </div>
+                        <div>
+                            <button type="submit" class="login">Đăng nhập</button>
+                        </div>
+                    </form>
+                    <div class=" alert text-center-support" role="alert">
+                        *Nếu Số điện thoại của bạn không sử dụng Zalo, Vui lòng
+                        <br>
+                        <a href="click vào" class="click"><b>Đăng nhập tại đây</b></a>
+                        .
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="text-center-3">
+                <p class="text-center-4">Theo dõi đơn hàng</p>
+                <p>Giảm giá lên đến
+                <span class="sale">57%</span></p>
+            </div>
+        </div>     
+
+    <div class="footer-1">
+        <div class="grid">
+            <div class="footer-grid">
+                <div class="footer-10">
+                    <div class="footer-img">
+                        <img src="//res.yame.vn/Content/images/yame-f-logo-white.png" style="height: 70px;">
+                    </div>
+                    <ul class="footer-tt">
+                        <li>Đặt hàng và thu tiền tận nơi toàn quốc</li>
+                        <li><a href="http://lien-he-vơi-chung-toi">Liên hệ: 193849203-4</a></li>
+                        <li><a href="http://cac-chuong-trinh-khuyen-mai" class="footer-tt-a">chương trình khuyến mãi</a></li>
+                        <li><a href="http://gioi-thieu-ve-yame" class="footer-tt-a">giới thiệu về YaMe</a></li>
+                        <li><a href="http://gioi-thieu-cac-bo-suu-tap" class="footer-tt-a">giới thiệu các bộ sưu tập</a></li>
+                        <li><a href="http://xem-them-cac-thong-tin" class="footer-tt-a">xem thêm thông tin YaMe
+                            <i class="footer-tt-a fa-solid fa-chevron-down"></i></a></li> 
+                    </ul>
+                    <div class="row-list">                 
+                        <a href="http://danh-sach-cua-hang" class="footer-tt-a">danh sách CH YaMe trên toàn quốc
+                            <i class="footer-tt-a fa-solid fa-chevron-down"></i></a></li>
+                    </div>
+                    <div class="row-list">
+                            <a href="http://tim-cua-hang-gan-ban" class="footer-tt-a">
+                            <i class="fa-solid fa-location-dot"></i>  
+                            Tìm cửa hàng gần bạn</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-a">
+                    <div class="footer-banquyen">
+                        <p>© 2024 - CÔNG TY TNHH YAME VN</p>
+                        
+                        Giấy CNĐKDN: 0310874914 – Ngày cấp: 25/11/2011 - Cơ quan cấp: Phòng Đăng Ký Kinh Doanh – Sở Kế Hoạch và Đầu Tư TP.HCM
+                        
+                        Địa chỉ đăng ký kinh doanh: 766/3B-3C Sư Vạn Hạnh (Nối dài), Phường 12, Quận 10, TP.HCM - 
+                    </div>
+                    <div class="footer-banquyen-img">
+                            <a href="https://res.yame.vn/dathongbao">
+                            <img src="https://res.yame.vn/dathongbao.png" alt="" style="width: 100%; max-width:150px !important; margin-top:10px;">
+                            </a>
+                    </div>
+                            <a href="">
+                            <img src="https://page.widget.zalo.me/static/images/2.0/Logo.svg" alt="">
+                            </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
